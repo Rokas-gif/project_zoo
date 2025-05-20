@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Zoo System</h1>
+
+    <form id="employeeForm">
+      <h2>Create Employee</h2>
+      <input
+        type="text"
+        id="employeeName"
+        placeholder="Employee Name"
+        required
+      />
+      <button type="submit">Add Employee</button>
+    </form>
+
+    <form id="animalForm">
+      <h2>Create Animal</h2>
+      <select id="animalType" required>
+        <option value="Zebra">Zebra</option>
+        <option value="Elephant">Elephant</option>
+        <option value="Tiger">Tiger</option>
+      </select>
+      <input type="text" id="animalName" placeholder="Name" required />
+      <input type="number" id="animalAge" placeholder="Age" required />
+      <input type="text" id="animalExtra1" placeholder="Extra 1" />
+      <input type="text" id="animalExtra2" placeholder="Extra 2" />
+      <button type="submit">Add Animal</button>
+    </form>
+
+    <button id="logEmployees">Log Employees</button>
+    <button id="logAnimals">Log Animals</button>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
